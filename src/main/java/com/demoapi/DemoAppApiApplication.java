@@ -1,17 +1,15 @@
-package com.abukhoerul.pulsaapi;
+package com.demoapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-
-
 @SpringBootApplication
 @EnableJpaAuditing
-public class PulsaAppApiApplication {
+public class DemoAppApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PulsaAppApiApplication.class, args);
+		SpringApplication.run(DemoAppApiApplication.class, args);
 	}
 
 }
